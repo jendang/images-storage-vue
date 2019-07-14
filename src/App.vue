@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello" />
+    <AppHeader></AppHeader>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import AppHeader from '@/components/AppHeader.vue'
 
 export default {
-  name: "app",
+  name: 'app',
   components: {
-    HelloWorld
+    AppHeader
   }
-};
+}
 </script>
 
 <style>
